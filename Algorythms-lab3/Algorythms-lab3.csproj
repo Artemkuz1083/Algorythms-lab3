@@ -12,6 +12,7 @@
     <ProjectReference Include="..\..\WpfLabs\RpnLogic\Rpn.Logic.csproj" />
     <ProjectReference Include="..\MyList\MyList.csproj" />
     <ProjectReference Include="..\Queue1\Queue1.csproj" />
+    <ProjectReference Include="..\RpnLogic\Rpn.Logic.csproj" />
     <ProjectReference Include="..\StackWork\StackWork.csproj" />
   </ItemGroup>
 

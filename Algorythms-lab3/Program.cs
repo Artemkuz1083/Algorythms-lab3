@@ -27,7 +27,8 @@ namespace AlgorythmsLab3
             }
             else if (input == 2)
             {
-                //Queue1.Run();
+                var queque = new QueueQueue<string>();
+                queque.Run();
             }
             else if (input == 3)
             {

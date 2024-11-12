@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorythms-lab3", "Algorythms-lab3\Algorythms-lab3.csproj", "{DC088CB8-9C6B-46D8-8DEA-C5B27065726B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorythms-lab3", "Algorythms-lab3\Algorythms-lab3.csproj", "{DC088CB8-9C6B-46D8-8DEA-C5B27065726B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyList", "MyList\MyList.csproj", "{9E1E40CC-A96E-445B-BA65-1D60EA8BD411}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyList", "MyList\MyList.csproj", "{9E1E40CC-A96E-445B-BA65-1D60EA8BD411}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queue1", "Queue1\Queue1.csproj", "{1285784D-DE6F-4F2F-BC08-831BAAB890E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Queue1", "Queue1\Queue1.csproj", "{1285784D-DE6F-4F2F-BC08-831BAAB890E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackWork", "StackWork\StackWork.csproj", "{5B25CF2F-26E1-4868-8057-23CF7FFE8C8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackWork", "StackWork\StackWork.csproj", "{5B25CF2F-26E1-4868-8057-23CF7FFE8C8B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rpn.Logic", "..\WpfLabs\RpnLogic\Rpn.Logic.csproj", "{B9E18923-868C-4E7D-AA40-3E7E55EB1783}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rpn.Logic", "RpnLogic\Rpn.Logic.csproj", "{88DE1FD5-31E1-45FE-BAEC-5901770CB83B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{5B25CF2F-26E1-4868-8057-23CF7FFE8C8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B25CF2F-26E1-4868-8057-23CF7FFE8C8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B25CF2F-26E1-4868-8057-23CF7FFE8C8B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B9E18923-868C-4E7D-AA40-3E7E55EB1783}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B9E18923-868C-4E7D-AA40-3E7E55EB1783}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B9E18923-868C-4E7D-AA40-3E7E55EB1783}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B9E18923-868C-4E7D-AA40-3E7E55EB1783}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88DE1FD5-31E1-45FE-BAEC-5901770CB83B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88DE1FD5-31E1-45FE-BAEC-5901770CB83B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88DE1FD5-31E1-45FE-BAEC-5901770CB83B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88DE1FD5-31E1-45FE-BAEC-5901770CB83B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
