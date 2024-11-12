@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Algorythms_lab3</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\WpfLabs\RpnLogic\Rpn.Logic.csproj" />
+    <ProjectReference Include="..\MyList\MyList.csproj" />
+    <ProjectReference Include="..\Queue1\Queue1.csproj" />
+    <ProjectReference Include="..\StackWork\StackWork.csproj" />
+  </ItemGroup>
+
+</Project>
