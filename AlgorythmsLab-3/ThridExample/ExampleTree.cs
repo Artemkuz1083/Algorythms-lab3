@@ -8,7 +8,7 @@ namespace AlgorythmsLab_3
 {
     public class BinarySearchTree
     {
-        class Node
+        public class Node
         {
             public int Data;
             public Node Left, Right;
@@ -20,8 +20,8 @@ namespace AlgorythmsLab_3
             }
         }
 
-        
-            private Node root;
+
+        private Node root;
 
         public BinarySearchTree()
         {
@@ -85,11 +85,26 @@ namespace AlgorythmsLab_3
         {
             InOrderTraversal(root);
             Console.WriteLine();
+
+        }
+
+        public static void StartInOrderTraversal()
+        {
+            BinarySearchTree tree = new BinarySearchTree();
+
+            // Вставка значений в дерево
+            tree.Insert(70);
+            tree.Insert(20);
+            tree.Insert(40);
+            tree.Insert(50);
+            tree.Insert(30);        
+            tree.Insert(60);
+
+            Console.WriteLine("Рекурсивный обход дерева в глубину:");
+            tree.InOrderTraversal();
         }
         
 
-        
-        
         public static void ExampleTree()
         {
             BinarySearchTree tree = new BinarySearchTree();
@@ -100,7 +115,7 @@ namespace AlgorythmsLab_3
             tree.Insert(70);
             tree.Insert(20);
             tree.Insert(40);
-            tree.Insert(60);
+            tree.Insert(60);    
             tree.Insert(80);
 
             // Поиск значения в дереве
@@ -121,7 +136,8 @@ namespace AlgorythmsLab_3
             Console.WriteLine("Обход дерева в порядке возрастания:");
             tree.InOrderTraversal();
         }
-        
+
+
 
     }
 }

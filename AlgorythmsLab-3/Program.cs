@@ -31,6 +31,10 @@ class Program
                     Console.Clear();
                     Tasks.RunListTasks();
                     break;
+                case 5:
+                    Console.Clear();
+                    Tasks.RunRecursionTreeTask();
+                    break;
                 default:
                     Console.WriteLine("Error: Введите номер от 1 до 4!");
                     break;

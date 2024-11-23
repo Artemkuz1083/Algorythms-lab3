@@ -60,10 +60,9 @@ namespace AlgorythmsLab_3.Utilities
             Console.Clear();
 
             Console.WriteLine("Выберите задание очереди:");
-            Console.WriteLine("1. Запуск различных наборов операций из файла input.txt с выводом на экран");
-            Console.WriteLine("2. Запуск с замером времени с файлом одинаковым по длине, со случайными операциями из файла input.txt.");
-            Console.WriteLine("3. Запуск с замером времени с файлом прогрессирующим по длине, со случайными операциями из файла input.txt.");
-            Console.WriteLine("4. Запуск с замером времени с файлом прогрессирующим по длине, со случайными операциями из файла input.txt, для встроенного Queue");
+            Console.WriteLine("1. Запуск различных наборов операций из файла input.txt с выводом на экран");            
+            Console.WriteLine("2. Запуск с замером времени с файлом прогрессирующим по длине, со случайными операциями из файла input.txt.");
+            Console.WriteLine("3. Запуск с замером времени с файлом прогрессирующим по длине, со случайными операциями из файла input.txt, для встроенного Queue");
 
 
             while (true)
@@ -78,18 +77,14 @@ namespace AlgorythmsLab_3.Utilities
                         break;
                     case 2:
                         Console.Clear();
-                        ExecutorQueue.ExecuteQueueOperationsWithSameLenghtFile();
-                        break;
-                    case 3:
-                        Console.Clear();
                         ExecutorQueue.ExecuteQueueOperationsWithFile();
                         break;
-                    case 4:
+                    case 3:
                         Console.Clear();
                         ExecutorQueue.ExecuteQueueOperationsWithQueue();
                         break;
                     default:
-                        Console.WriteLine("Введите номер от 1 до 4!");
+                        Console.WriteLine("Введите номер от 1 до 3!");
                         continue;
                 }
             }
@@ -140,6 +135,18 @@ namespace AlgorythmsLab_3.Utilities
                 }
             }
         }
+
+
+
+
+        public static void RunRecursionTreeTask()
+        {
+            Console.Clear();
+            BinarySearchTree.StartInOrderTraversal();
+            MenuManager.ReturnToMainMenu("Tree");
+        }
+
+
 
         public static void RunListTasks()
         {

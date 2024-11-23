@@ -12,6 +12,7 @@ namespace AlgorythmsLab_3.Utilities
             Console.WriteLine("2. Очередь");
             Console.WriteLine("3. Динамические структуры");
             Console.WriteLine("4. Лист");
+            Console.WriteLine("5. Рекурсивный обход дерева");
         }
 
         public static void ReturnToMainMenu(string previousMethod)
@@ -40,6 +41,9 @@ namespace AlgorythmsLab_3.Utilities
                                 Tasks.RunListTasks();
                                 break;
                             // Добавьте другие ваши кейсы по мере необходимости
+                            case "Treee":
+                                Tasks.RunRecursionTreeTask();
+                                break;
                             default:
                                 Program.Main();
                                 break;
